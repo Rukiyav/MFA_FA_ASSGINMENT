@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# MFA outputs (intermediate)
+mfa_output/
+mfa_output_after/
+
+# Processed data (not needed in repo)
+matched_audio_transcripts/
+normalized_transcripts/
+
+# Backup files
+*.backup
+*.bak
+*~
+
+# Audio files (large, optional - uncomment if not including in data/)
+# *.wav
+# *.mp3
+# *.flac
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+
+# Logs
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Conda
+.conda/
+
+# MFA cache
+.mfa_cache/
+
