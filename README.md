@@ -60,7 +60,7 @@ python scripts/normalize_transcripts.py
 - Converts to uppercase
 - Ensures single-line format
 
-**Input:** `input_files/audio_and_transcripts/*.txt`  
+**Input:** `data/audio_and_transcripts/*.txt`  
 **Output:** `normalized_transcripts/*.txt`
 
 ### Step 2: Match Audio with Transcripts
@@ -78,7 +78,7 @@ python scripts/match_audio_transcripts.py
 
 **Input:** 
 - `normalized_transcripts/*.txt`
-- `original/wav/*.wav`
+- `data/audio_and_transcripts/*.wav`
 
 **Output:** `matched_audio_transcripts/` (contains both .txt and .wav files)
 
@@ -198,7 +198,7 @@ python scripts/convert_audio_for_mfa.py
 
 ### Issue: Transcript normalization issues
 **Solution:**
-- Check that input files are in `input_files/audio_and_transcripts/`
+- Check that input files are in `data/audio_and_transcripts/`
 - Verify file encoding is UTF-8
 - Review normalization script output for errors
 
